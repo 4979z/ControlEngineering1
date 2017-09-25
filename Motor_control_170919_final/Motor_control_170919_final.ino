@@ -19,8 +19,7 @@ float error_sum = 0;			// 에러 합산 (I 제어에 사용)
 float desired_deg = 600;		// 제어 목표 각도
 float error_deg = 0;			// 각도 오차
 float error_deg_old = 0;		// 이전 스텝에서의 각도 오차
-
-//void moterControlTimer();		// 함수 원형 선언 (아두이노에서도 이렇게 해줘야하는지??)
+void moterControlTimer();		// 함수 원형 선언
 
 // 아두이노 기본 설정
 void setup() {
